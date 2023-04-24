@@ -1,0 +1,46 @@
+.common{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+}
+.header{
+height: 100px;;
+background-color: black;
+color: white;
+line-height: 100px;
+}
+.footer{
+height: 25px;
+background-color: black;
+color: white;
+position: fixed;
+bottom: 0px;
+right: 0px;
+left: 0px;
+}
+.body{
+    background-color: whitesmoke;
+}
+ol{
+    list-style-position: inside;
+}
+ul{
+    list-style-position: inside;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    color: white;
+    padding: 15px;
+}
